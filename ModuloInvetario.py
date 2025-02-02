@@ -2,7 +2,7 @@ def agregar_producto(inventario):
     nombre_producto=input("Ingrese el nombre a agregar: ").capitalize()
     cantidad_producto=int(input("ingrese la cantidad: "))
     inventario.append({"nombre":nombre_producto,"cantidad":cantidad_producto})
-    print("Producto Agregado Adecuadamente")
+    print("Producto Agregado  Adecuadamente")
     print(inventario)
 
 def eliminar_producto(inventario):
