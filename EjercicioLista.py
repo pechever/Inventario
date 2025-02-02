@@ -33,7 +33,7 @@ for producto in inventario:
         inventario.remove(producto)
 print(inventario)  
 
-#actualizar c eee ddd fff
+#actualizar 
 for producto in inventario:
     if producto["nombre"]=="Zapatos":
         cantidad_nueva=producto["cantidad"]+4
