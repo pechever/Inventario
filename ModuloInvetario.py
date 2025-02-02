@@ -1,3 +1,5 @@
+#Ejemplo de manejo de inventario
+
 def agregar_producto(inventario):
     nombre_producto=input("Ingrese el nombre a agregar: ").capitalize()
     cantidad_producto=int(input("ingrese la cantidad: "))
