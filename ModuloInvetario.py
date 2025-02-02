@@ -6,7 +6,7 @@ def agregar_producto(inventario):
     print(inventario)
 
 def eliminar_producto(inventario):
-    nombre_producto=input("Ingrese el nombre a eliminar: ").capitalize()
+    nombre_producto=input("Ingrese el nombre  a eliminar: ").capitalize()
     for producto in inventario:
         if producto["nombre"]==nombre_producto:
             inventario.remove(producto)
